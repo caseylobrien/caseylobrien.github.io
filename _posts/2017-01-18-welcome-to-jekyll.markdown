@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Casey O'Brien"
 date:   2017-01-18 22:20:48 -0500
 categories: jekyll update
