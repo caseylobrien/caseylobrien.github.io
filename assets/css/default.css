@@ -1,10 +1,12 @@
-html, body {
+html, 
+body,
+.sidebar,
+.content {
     margin: 0;
     height: 100%;
 }
 
 body {
-  height: 100%;
   font-family: 'Droid Sans', sans-serif;
   overflow: hidden;
 }
@@ -13,7 +15,6 @@ body {
     display: -webkit-flex;
     display: flex;
     background-color: #2b2b2b;
-    min-height: 100%;
 }
 
 .sidebar {
@@ -28,7 +29,7 @@ body {
     padding: 10px;
     -webkit-flex: 3;
     flex: 3;
-    color: #aaa;
+    color: whitesmoke;
 }
 
 img{
@@ -44,7 +45,7 @@ h1 {
 
 .content h1 {
     text-align: center;
-  color: #aaa;
+  color: whitesmoke;
 }
 
 .home-flex {
@@ -90,9 +91,10 @@ h1 {
 }
 
 .resume {
-    margin-top: 10%;
     color: whitesmoke;
     background: inherit;
+    overflow-y: auto;
+    height: 100vmax;
 }
 
 .resume h1 {
