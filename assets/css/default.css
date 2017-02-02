@@ -88,3 +88,39 @@ h1 {
     color:#000!important;
     background-color:#fff!important
 }
+
+.resume {
+    margin-top: 10%;
+    color: whitesmoke;
+    background: inherit;
+}
+
+.resume h1 {
+    color: inherit;
+    background: inherit;
+    font-size: 250%;
+}
+
+.resume h2 {
+    color: inherit;
+    background: inherit;
+    font-size: 150%;
+    margin-left: 10%;
+}
+
+.resume a {
+    color: inherit;
+    background: inherit;
+    margin-left: 10%;
+}
+
+.resume ul {
+    color: inherit;
+    background: inherit;
+    margin-left: 10%;
+}
+
+.resume ul li {
+    color: inherit;
+    background: inherit;
+}
