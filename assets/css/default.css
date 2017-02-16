@@ -20,18 +20,34 @@ body {
 }
 
 .flex-container h1 {
-  flex: 1;
   font-size: 50px;
 }
 
 .flex-container img {
   border-radius: 50%;
   max-width: 400px;
-  max-height: auto;
-  flex: 3;
+  max-height: 400px;
 }
 
-.home-flex {
+.flex-heading{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-image{
+    flex: 3;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -58,4 +74,45 @@ body {
 .icon:hover {
     color: #000 !important;
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px){
+    .flex-container img {
+        border-radius: 50%;
+        max-width: 300px;
+        max-height: 300px;
+        flex: 1;
+    }
+
+    .flex-container h1 {
+        font-size: 40px;
+    }
+
+    .flex-heading{
+        flex: 1;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .flex-image{
+        flex: 3;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .flex-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        flex: 2;
+    }
 }
