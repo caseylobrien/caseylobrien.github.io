@@ -52,8 +52,10 @@ body {
 
 .icon {
     color: whitesmoke;
+    transition: all 0.3s;
 }
 
-.icon a:hover {
+.icon:hover {
     color: #000 !important;
+    transform: scale(1.1);
 }
